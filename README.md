@@ -8,13 +8,13 @@ Built with **React (Vite), Tailwind CSS, Express.js, and MySQL**.
 
 ## 📸 Application Screenshots
 
-### Landing Page & Authentication
+### Home Page & Authentication
 ![Home Page](./Images/Home.png)
 ![User Signup](./Images/User_Signup.png)
 ![Sign In](./Images/SignIN.png)
 ![Change Password](./Images/change_passwordfor_both.png)
 
-### Administrator View
+### Admin View
 ![Admin Dashboard](./Images/Admin_Dashboard.png)
 ![Admin View - List Stores](./Images/AdminView_listStores.png)
 ![Admin View - List Users](./Images/AdminView_listUsers.png)
@@ -51,7 +51,7 @@ Built with **React (Vite), Tailwind CSS, Express.js, and MySQL**.
 
 ---
 
-## 🔑 Test Credentials
+## Test Credentials
 
 To quickly test the application's role-based features without registering new accounts, you can use the following pre-configured credentials:
 
@@ -63,7 +63,7 @@ To quickly test the application's role-based features without registering new ac
 - **Email:** `owner123@gmail.com`
 - **Password:** `Owner123@gmail.`
 
-### 3. System Administrator
+### 3. System Administrator/Admin
 - **Email:** `admin@gmail.com`
 - **Password:** `Admin@123`
 
@@ -73,7 +73,7 @@ To quickly test the application's role-based features without registering new ac
 
 StoreHub enforces strict role-based access control (RBAC), providing tailored dashboards and functionalities for different types of users:
 
-### 🛡️ System Administrator
+### Admin
 - **Platform Management:** Add new stores, normal users, and admin users directly from the dashboard.
 - **Analytics Dashboard:** View real-time statistics displaying the total number of users, stores, and submitted ratings.
 - **Store Directory:** View a comprehensive list of stores with their Name, Email, Address, and Average Rating.
@@ -81,14 +81,14 @@ StoreHub enforces strict role-based access control (RBAC), providing tailored da
 - **Advanced Filtering:** Apply dynamic filters on listings based on Name, Email, Address, and Role.
 - **Detailed Profiles:** View deep details of all users (including viewing a Store Owner's specific ratings).
 
-### 👤 Normal User
+### Normal User
 - **Authentication:** Securely sign up, log in, and update passwords.
 - **Discover Stores:** View a complete directory of all registered stores on the platform.
 - **Search:** Quickly search for specific stores by Name and Address.
 - **Interactive Ratings:** View a store's overall average rating alongside your own submitted rating.
 - **Submit/Modify Feedback:** Easily submit new ratings (1 to 5 stars) or modify existing ratings for individual stores.
 
-### 🏪 Store Owner
+### Store Owner
 - **Authentication:** Secure login and password management.
 - **Owner Dashboard:** Access a dedicated dashboard showing the performance of their owned stores.
 - **Customer Insights:** View a detailed list of users who have submitted ratings for their specific store.
@@ -96,7 +96,7 @@ StoreHub enforces strict role-based access control (RBAC), providing tailored da
 
 ---
 
-## 🔒 Form Validations & Security
+## Form Validations & Security
 - **Name:** Minimum 20 characters, Maximum 60 characters.
 - **Address:** Maximum 400 characters.
 - **Password:** 8-16 characters, must include at least one uppercase letter and one special character.
