@@ -159,10 +159,6 @@ body {
   border-radius: 50%;
 }
 
-/* ============================================
-   FORM ELEMENTS
-   ============================================ */
-
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -210,7 +206,6 @@ label {
   margin-bottom: 6px;
 }
 
-/* Password wrapper */
 .password-wrapper {
   position: relative;
 }
