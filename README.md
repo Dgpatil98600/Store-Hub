@@ -6,7 +6,7 @@ Built with **React (Vite), Tailwind CSS, Express.js, and MySQL**.
 
 ---
 
-## 📸 Application Screenshots
+## Application Screenshots
 
 ### Home Page & Authentication
 ![Home Page](./Images/Home.png)
@@ -28,7 +28,7 @@ Built with **React (Vite), Tailwind CSS, Express.js, and MySQL**.
 
 ---
 
-## 🚀 How to Run & Test the Application
+## How to Run & Test the Application
 
 ### 1. Backend Setup
 1. Open a terminal and navigate to the `backend` folder: `cd backend`
