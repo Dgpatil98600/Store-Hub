@@ -51,23 +51,24 @@ Built with **React (Vite), Tailwind CSS, Express.js, and MySQL**.
 
 ---
 
-## Test Credentials
 
-To quickly test the application's role-based features without registering new accounts, you can use the following pre-configured credentials:
+## Admin Account Setup
 
-### 1. Normal User
-- **Email:** `user123@gmail.com`
-- **Password:** `User123@gmailcom`
+A default System Admin account is automatically created through the `seed.js` script.
 
-### 2. Store Owner
-- **Email:** `owner123@gmail.com`
-- **Password:** `Owner123@gmail.`
+Run:
 
-### 3. System Administrator/Admin
-- **Email:** `admin@gmail.com`
-- **Password:** `Admin@123`
+```bash
+node seed.js
+```
 
----
+Default Admin Credentials:
+
+* Email: `admin@gmail.com`
+* Password: `Admin@123`
+
+Normal Users can register through the application's registration page, while Store Owners and additional Admin accounts can be created by the System Administrator.
+
 
 ## ✨ Features by User Role
 
